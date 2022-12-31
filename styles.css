@@ -1,0 +1,118 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+}
+
+.container{
+    width: 380px;
+    height: 375px;
+    position: relative;
+    top: 140px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    
+}
+.card{
+    background-color: black;
+    height: 100px;
+    border-radius: 9px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+img{
+    border-radius: 50%;
+    border: 4px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    width: 24%;
+}
+h2{
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(0, 0%, 59%);
+}
+.age{
+    font-weight: 400;
+    font-family: Kumbh Sans;
+    word-spacing: 3em;
+}
+h3{
+   
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+}
+.social{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Kumbh Sans;
+    word-spacing: 3em;
+    position: absolute;
+    left: 61px;
+    bottom: 7px;
+}
+.top{
+    position: absolute;
+    border: 0;
+    width: 50%;
+    top: -100px;
+    left: -29px;
+    border-radius: 0;
+    
+}
+
+.card-bg{
+    border: 0;
+    border-radius: 9px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;;
+    height: 100px;
+    width: 380px;
+    
+}
+.status{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Kumbh Sans;
+    color: hsl(0, 0%, 17%);
+    word-spacing: 3em;
+    position: absolute;
+    left: 66px;
+    bottom: 32px;
+
+}
+.name{
+    color: hsl(0, 0%, 17%);
+    
+}
+.attribution{
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+hr{
+   position: absolute;
+   bottom: 74px;
+   width: 99.6%;
+    height: 0.3px;
+    opacity: 40%;
+    
+}
+
+
+@media (max-width: 768px){
+    .container{
+        width: 350px;
+    }
+    .card{
+        width: 350px;
+    }
+    .card-bg{
+        width: 350px;
+    }
+}
