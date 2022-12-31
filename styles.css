@@ -10,7 +10,7 @@ body{
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     border-radius: 9px;
-    
+    filter: drop-shadow(10px solid black);
 }
 .card{
     background-color: black;
