@@ -6,7 +6,7 @@ body{
     width: 380px;
     height: 375px;
     position: relative;
-    top: 140px;
+    top: 200px;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     border-radius: 9px;
@@ -14,7 +14,7 @@ body{
 }
 .card{
     background-color: black;
-    height: 100px;
+    height: 120px;
     border-radius: 9px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -69,8 +69,9 @@ h3{
     border-radius: 9px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;;
-    height: 100px;
+    height: 120px;
     width: 380px;
+    
     
 }
 .status{
