@@ -10,7 +10,13 @@ body{
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     border-radius: 9px;
-    filter: drop-shadow(10px solid black);
+    filter: drop-shadow(0.4rem 0.4rem 0.4rem rgba(0, 0, 30, 0.5));
+    transition: all 0.2s ease-in-out; 
+   
+}
+.container:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
 }
 .card{
     background-color: black;
